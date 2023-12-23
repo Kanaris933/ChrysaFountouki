@@ -1,0 +1,340 @@
+/*##################### Essentials  #####################*/
+
+/* nav bar  */
+
+.navbar {
+    background-color: #1d1d1d !important; 
+}
+
+.nav-link {
+    color: white;
+    /* font-family: serif; */
+}
+
+.nav-link:hover {
+    color: #bf8340;
+}
+
+.dropdown-menu {
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+}
+
+.dropdown-menu li a{
+    color: white;
+}
+
+.navbar-brand {
+    color: #bf8340;
+}
+
+/* nav bar end  */
+
+/* footer  */
+
+.mainpage-footer {
+    background-color: #1d1d1d !important; 
+    width: 100% !important;
+    color:white !important;
+}
+
+.mainpage-footer h5, .mainpage-footer p {
+    color: #bf8340 !important;
+}
+
+.mainpage-footer a:hover {
+    color: #bf8340 !important;
+}
+
+
+.mainpage-footer a {
+    color:white !important;
+}
+
+/* footer end */
+
+/* Background color  */
+
+.Paint-Background {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #f0e2d3;
+    overflow: hidden;
+}
+
+/* Background color  */
+
+/*##################### Essentials End  #####################*/
+
+/*##################### Index #####################*/
+
+/* header mainpage  */
+
+.header-mainpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden !important;
+    /* background-image: url(./Pictures/JusticeBlack.webp);
+    background-size: cover; */
+}
+
+.img-header-mainpage {
+    grid-area: 1/1/3/3;
+    height: 700px;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+.header-mainpage h1 {
+    grid-area: 1/1/2/2;
+    color:#bf8340;
+    /* color: #bc9043; */
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 80px;
+} 
+
+.header-mainpage h2 {
+    grid-area: 2/1/3/2;
+    color: #bf8340;
+    /* color: #bc9043;  */
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    font-size: 60px;
+    padding-left: 20px;
+}
+
+
+/* header mainpage end  */
+
+/* about main page  */
+
+.about-mainpage {
+    padding-top: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-mainpage img {
+    margin-bottom: 3em;
+}
+
+
+/* about main page end */
+
+
+/*##################### Index END #####################*/
+
+/*##################### CV  ##############################*/
+
+/* .CV h2 {
+    color: #bf8340 !important;
+} */
+
+.work-experience {
+    padding-top: 5em;
+}
+
+.CV-WE-Text li {
+    list-style: none;
+}
+
+.CV-WE-Text>ul {
+    padding-left:0;
+}
+
+.CV-Studies {
+    margin-top: 3em;
+    padding-bottom: 3em;
+}
+
+.CV-HR {
+    border-width: 3px;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.CV-Studies-Text li {
+    list-style: none;
+}
+
+.CV-Studies-Text>ul {
+    padding-left:0;
+}
+
+
+
+/*##################### CV END  ##############################*/
+
+/*##################### Contact END  ##############################*/
+
+.Contact-me {
+    overflow:hidden;
+}
+
+.Contact-me-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.Contact-me hr {
+    margin-bottom: 25px;
+}
+
+.CM-Address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.CM-Email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.CM-Phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.Contact-me svg {
+    margin-bottom: 3px;
+}
+
+.Contact-HR {
+    border-width: 3px;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.Contact-me-H2, .Contact-Orario {
+    display: flex;
+    justify-content: center;
+}
+
+.Contact-Orario li {
+    list-style: none;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.Contact-Orario span {
+    font-weight: 400;
+}
+
+
+.Contact-Remove-Margin {
+    opacity: 0;
+    margin-bottom: 0 !important;
+}
+
+.mapouter {
+    overflow:hidden;
+    margin-left: 100px;
+}
+
+.HR-Below-Map {
+    opacity: 0;
+}
+
+/*##################### Contact END  ##############################*/
+
+/*################## media  ##################################*/
+
+/* Index  */
+
+@media (min-width: 1621px) {
+    .img-header-mainpage{
+        height:800px;
+    }
+}
+
+@media (min-width: 811px) and (max-width: 1620px) {
+    .header-mainpage h1 {
+        font-size: 40px;
+    }
+
+    .header-mainpage h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 810px) {
+    .header-mainpage h1 {
+        font-size: 40px;
+        justify-content: left;
+    }
+
+    .header-mainpage h2 {
+        font-size: 30px;
+        justify-content: left;
+    }
+
+    .img-header-mainpage{
+        height: 500px;
+    }
+}
+
+/* Index end  */
+
+/* CV  */
+
+@media (max-width: 991px) {
+    
+    .CV-WE-IMG {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    
+    .CV-WE-IMG img {
+        height: 50px;
+    }
+
+    .CV-Studies-Img {
+        order: -1;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .CV-Studies-Img img {
+        height: 50px;
+    }
+
+
+}
+
+/* CV  */
+
+/* Contact  */
+
+@media (max-width: 1350px) {
+    .mapouter {
+        overflow:hidden;
+        margin-left: 0px;
+    }
+}
+
+/* Contact END */
+
+
