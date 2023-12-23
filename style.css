@@ -317,6 +317,10 @@
         grid-template-columns: 4fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+
+    .img-about-mainpage img {
+        height: 500px;
+    }
 }
 
 @media (max-width: 393px) {
@@ -336,6 +340,10 @@
 
     .img-header-mainpage{
         height: 175px;
+    }
+
+    .img-about-mainpage img {
+        height: 300px;
     }
 }
 
