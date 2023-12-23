@@ -55,12 +55,13 @@
 
 /* Background color  */
 
-/* .Paint-Background {
+.Paint-Background {
     margin-left: 0px;
     margin-right: 0px;
     background-color: #f0e2d3;
+    background-color: red;
     overflow: hidden;
-} */
+}
 
 /* Background color  */
 
@@ -89,6 +90,7 @@
     margin: 0;
     width: 100vw;
 }
+
 
 .header-mainpage h1 {
     grid-area: 1/1/2/2;
