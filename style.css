@@ -257,6 +257,22 @@
 
 /*##################### Contact END  ##############################*/
 
+/*##################### Astiko  ##############################*/
+
+.Dikaio-Header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    padding-top: 15px;
+}
+
+.Dikaio-Img img {
+    height: 400px;
+    padding-bottom: 15px;
+}
+
+/*##################### Astiko END  ##############################*/
+
 /*################## media  ##################################*/
 
 /* Index  */
@@ -389,5 +405,15 @@
 }
 
 /* Contact END */
+
+/* Dikaio */
+
+@media (max-width: 393px) {
+    .Dikaio-Img img {
+        height: 300px;
+    }
+}
+
+/* Dikaio END */
 
 
